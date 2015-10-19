@@ -1,0 +1,1191 @@
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary {
+  display: block;
+}
+
+audio, canvas, video {
+  display: inline-block;
+}
+
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+[hidden] {
+  display: none;
+}
+
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+a:focus {
+  outline: thin dotted;
+}
+
+a:active, a:hover {
+  outline: 0;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+b, strong {
+  font-weight: 700;
+}
+
+dfn {
+  font-style: italic;
+}
+
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+code, kbd, pre, samp {
+  font-family: monospace, serif;
+  font-size: 1em;
+}
+
+pre {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+q {
+  quotes: \201C \201D \2018 \2019;
+}
+
+small {
+  font-size: 80%;
+}
+
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sup {
+  top: -.5em;
+}
+
+sub {
+  bottom: -.25em;
+}
+
+img {
+  border: 0;
+}
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+fieldset {
+  border: 1px solid silver;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+button, input, select, textarea {
+  font-family: inherit;
+  font-size: 100%;
+  margin: 0;
+}
+
+button, input {
+  line-height: normal;
+}
+
+button, html input[type=button], input[type=reset], input[type=submit] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+
+button[disabled], input[disabled] {
+  cursor: default;
+}
+
+input[type=checkbox], input[type=radio] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+input[type=search] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+input[type=search]::-webkit-search-cancel-button, input[type=search]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+textarea {
+  overflow: auto;
+  vertical-align: top;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body, figure {
+  margin: 0;
+}
+
+legend, button::-moz-focus-inner, input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/**************
+VARIABLES
+*****************/
+/**************
+COLOURS:
+*****************/
+/**************
+FONTS:
+*****************/
+/**************
+BUTTONS:
+*****************/
+/**************
+GENERAL:
+*****************/
+html {
+  font-size: 62.5%;
+}
+
+body {
+  max-width: 1280px;
+}
+
+li {
+  border-radius: 5px;
+}
+
+p {
+  font-size: 12px;
+  font-size: 1.2rem;
+  font-family: "Source Sans Pro", sans-serif;
+  color: #c2c2c2;
+  line-height: 2rem;
+}
+
+h1, h2, h3, h4, .top-nav {
+  color: #141414;
+  font-family: "Roboto Condensed", sans-serif;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: 50px;
+  font-size: 5rem;
+  letter-spacing: 0.8rem;
+  margin: 0;
+}
+
+h2 {
+  letter-spacing: 0.8rem;
+  font-size: 20px;
+  font-size: 2rem;
+}
+
+h3 {
+  letter-spacing: 0.6rem;
+  font-weight: 600;
+  font-size: 18px;
+  font-size: 1.8rem;
+}
+
+h4 {
+  letter-spacing: 0.3rem;
+  font-weight: 600;
+  font-size: 13px;
+  font-size: 1.3rem;
+}
+
+header h1, header h2, header h3, header h4, .banner h1, .banner h2, .banner h3, .banner h4, li > h2, li > h3, li > h4 {
+  color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+}
+
+.wrapper {
+  width: 90%;
+  margin: 0 auto;
+}
+
+li {
+  list-style: none;
+  text-decoration: none;
+}
+
+.title {
+  text-align: center;
+  padding: 5rem 0;
+}
+
+ul {
+  padding: 0;
+}
+
+.teal-button {
+  border: 2px #4ae5d1 solid;
+  background: #4ae5d1;
+  border-radius: 5px;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 600;
+  color: #ffffff;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 10px;
+  text-transform: uppercase;
+  width: 50%;
+}
+
+.teal-button img {
+  margin: 2px 5px 0 0;
+}
+
+.teal-button p {
+  margin: 0px;
+  color: white;
+}
+
+.teal-button:hover {
+  background: 0;
+  transition: 0.5s;
+}
+
+/**************
+HEADING:
+*****************/
+header {
+  background: url(../assets/hero.jpg) no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  text-align: center;
+  position: relative;
+}
+
+.top-nav {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  color: white;
+}
+
+.top-nav-right {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  flex: 1 0 auto;
+}
+
+.top-nav-right li {
+  padding: 0 10px;
+  font-size: 12px;
+  font-size: 1.2rem;
+}
+
+.top-nav-right i {
+  font-size: 1rem;
+}
+
+i.fa-bars {
+  display: none;
+}
+
+.top-nav a {
+  color: white;
+}
+
+.top-nav a:hover {
+  color: #4ae5d1;
+}
+
+.top-nav-left {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  flex: 2 0 auto;
+}
+
+.top-nav-left h4 {
+  position: relative;
+  top: -10px;
+}
+
+.top-nav-left img {
+  position: relative;
+  top: 5px;
+}
+
+/**********
+heading
+***********/
+.main-heading {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.main-heading a div.teal-button {
+  width: 30%;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.main-heading a div.teal-button h4 {
+  margin: 0;
+}
+
+header p {
+  color: #c2c2c2;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+button.teal-button li {
+  display: inline-block;
+  text-align: center;
+}
+
+button.teal-button img {
+  padding: 20px 0 0;
+}
+
+.london {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  color: white;
+  padding: 5% 0;
+}
+
+/**********
+nav bottom
+**********/
+.nav-bottom ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  letter-spacing: 0.4rem;
+  margin-top: -49px;
+}
+
+.nav-bottom li {
+  padding: 12.5px 20px;
+  border: 1px solid white;
+  border-bottom: none;
+  border-radius: 0;
+  position: relative;
+  top: 9px;
+  text-align: left;
+}
+
+.nav-bottom li:first-child {
+  background: rgba(0, 0, 0, 0.3);
+  border: none;
+}
+
+.nav-bottom li:hover {
+  background: rgba(0, 0, 0, 0.3);
+  transition: 0.3s;
+}
+
+.nav-bottom h4 {
+  margin: 0;
+}
+
+/**********
+overlay
+***********/
+.overlay {
+  background: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  bottom: 0;
+  height: 25%;
+  width: 100%;
+}
+
+.overlay-content {
+  height: 29.1vh;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 4%;
+  text-align: left;
+}
+
+.overlay-content div {
+  width: 10%;
+}
+
+.overlay-content strong {
+  color: white;
+  font-size: 13px;
+  font-size: 1.3rem;
+}
+
+.overlay-content a div.teal-button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.overlay-content a div.teal-button h4 {
+  margin: 0;
+}
+
+.overlay-content input[type="search"], .overlay-content input[type="text"] {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #c2c2c2;
+  background: none;
+}
+
+/**************
+BEST SEA TOURS
+*****************/
+ul.sea-tours {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sea-tours li {
+  width: 31%;
+  height: 32rem;
+  text-align: center;
+  margin: 1.6% 0;
+  padding: 2.5%;
+}
+
+.sea-tours li h3 {
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.sea-tours h3:hover {
+  color: #4ae5d1;
+  transition: 0.3s;
+}
+
+.deals {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+  text-transform: uppercase;
+  padding-top: 10%;
+}
+
+.deals a div.teal-button {
+  width: 100%;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.deals p {
+  color: white;
+}
+
+.bolivia {
+  background: url(../assets/tour-1.jpg) no-repeat;
+}
+
+.patagonia {
+  background: url(../assets/tour-2.jpg) no-repeat;
+}
+
+.torres {
+  background: url(../assets/tour-3.jpg) no-repeat;
+}
+
+.santorini {
+  background: url(../assets/tour-4.jpg) no-repeat;
+}
+
+.turkey {
+  background: url(../assets/tour-5.jpg) no-repeat;
+}
+
+.china1 {
+  background: url(../assets/tour-6.jpg) no-repeat;
+}
+
+/**************
+BANNER BAVARIA
+*****************/
+.banner {
+  text-align: center;
+  background: url(../assets/banner.jpg) no-repeat;
+  height: 30rem;
+  padding: 2.5% 0 12%;
+}
+
+.flickity {
+  margin-top: 5%;
+}
+
+.flickity a {
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+}
+
+/**************
+SPECIAL OFFERS
+*****************/
+ul.offers {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.offers > li {
+  width: 31.5%;
+  padding: 2.5%;
+}
+
+.number {
+  font-size: 20px;
+  font-size: 2rem;
+}
+
+.travel2 h3 {
+  margin-bottom: 100px;
+}
+
+.travel2.deals {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.travel2.deals li span {
+  text-transform: uppercase;
+  color: white;
+  font-size: 16px;
+  font-size: 1.6rem;
+}
+
+ul.deals {
+  padding: 0;
+}
+
+.travel2.teal-button {
+  width: 10px;
+}
+
+.deals li {
+  color: white;
+  font-family: "Roboto Condensed", sans-serif;
+  text-transform: uppercase;
+}
+
+.canada, .greece {
+  position: relative;
+}
+
+.canada div.scroll-right, .scroll-left {
+  position: absolute;
+  top: 45%;
+  background: #c2c2c2;
+  border-radius: 50%;
+  color: white;
+  width: 4rem;
+  height: 4rem;
+  text-align: center;
+  border: 3px solid white;
+}
+
+.scroll-right {
+  right: -6%;
+}
+
+.scroll-left {
+  left: -6%;
+}
+
+.scroll-right i, .scroll-left i {
+  margin: 0 auto;
+  padding: 35% 0;
+  font-size: 12px;
+  font-size: 1.2rem;
+}
+
+li.greece {
+  background: url(../assets/greece.jpg) no-repeat;
+}
+
+li.china2 {
+  background: url(../assets/china.jpg) no-repeat;
+}
+
+li.canada {
+  background: url(../assets/canada.jpg) no-repeat;
+}
+
+/**************
+SPECIAL OFFERS
+***************/
+.italy, .france {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: space-inbetween;
+}
+
+.italy {
+  justify-content: flex-start;
+  flex-direction: row;
+}
+
+.france {
+  justify-content: flex-end;
+  flex-direction: row-reverse;
+  text-align: right;
+}
+
+.italy-gallery, .france-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 50%;
+  padding: 0;
+}
+
+.italy-gallery ul, .france-gallery ul {
+  padding: -40px;
+  list-style-position: inside;
+}
+
+.italy-gallery li, .france-gallery li {
+  margin: 2.5%;
+  padding: 3%;
+  width: 45%;
+  height: 19rem;
+  text-align: left;
+  padding-top: 17%;
+  font-size: 12px;
+  font-size: 1.2rem;
+}
+
+.italy-gallery li:first-child {
+  background: url(../assets/italy-small.jpg) no-repeat;
+}
+
+.italy-gallery li:nth-child(2n) {
+  background: url(../assets/italy-small2.jpg) no-repeat;
+}
+
+.italy-gallery li:nth-child(3n) {
+  background: url(../assets/italy-small3.jpg) no-repeat;
+}
+
+.italy-gallery li:last-child {
+  background: url(../assets/italy-small4.jpg) no-repeat;
+}
+
+.france-gallery li:first-child {
+  background: url(../assets/francesmall1.jpg) no-repeat;
+}
+
+.france-gallery li:nth-child(2n) {
+  background: url(../assets/francesmall2.jpg) no-repeat;
+}
+
+.france-gallery li:nth-child(3n) {
+  background: url(../assets/francesmall3.jpg) no-repeat;
+}
+
+.france-gallery li:last-child {
+  background: url(../assets/francesmall4.jpg) no-repeat;
+}
+
+.from {
+  color: #4ae5d1;
+}
+
+.italy-text, .france-text {
+  width: 48%;
+  margin: 1%;
+  padding-top: 5%;
+}
+
+.france-text {
+  background: url(../assets/francemap.jpg) no-repeat;
+  background-size: cover;
+}
+
+.france-text div.teal-button {
+  margin: 0;
+}
+
+.italy-text {
+  background: url(../assets/italymap.png) no-repeat;
+  background-size: cover;
+}
+
+.countries {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 100%;
+  height: 13vh;
+}
+
+.france-text ul.countries li, .italy-text ul.countries li {
+  list-style: none;
+  font-family: "Source Sans Pro", sans-serif;
+  color: #c2c2c2;
+  font-size: 12px;
+  font-size: 1.2rem;
+  line-height: 2rem;
+  text-transform: capitalize;
+}
+
+.italy-text ul.countries li {
+  list-style-type: disc;
+  list-style-position: inside;
+}
+
+.france-text ul.countries li {
+  list-style-type: none;
+}
+
+/***************
+FOOTER
+****************/
+.footer1 {
+  background: #1b1b1b;
+}
+
+footer h4 {
+  color: white;
+  margin: 20px 0 50px;
+}
+
+.footer2 {
+  background: black;
+}
+
+.top-footer {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.top-footer a {
+  color: #c2c2c2;
+  font-size: 13px;
+  font-size: 1.3rem;
+}
+
+.top-footer > div {
+  width: 20%;
+  padding-left: 10px;
+  margin: 0 auto;
+}
+
+.top-footer a:hover {
+  color: #4ae5d1;
+}
+
+.top-footer div {
+  border-left: 1px solid lightgrey;
+}
+
+.top-footer-left {
+  padding-top: 9%;
+}
+
+.best-tours li {
+  padding: 10px 0;
+}
+
+.popular {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 20rem;
+}
+
+.popular li {
+  padding: 10px 0px;
+}
+
+.popular li:hover, .best-tours li {
+  color: #4ae5d1;
+}
+
+.social a {
+  color: white;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.social {
+  width: 90%;
+  border-radius: 5px;
+  height: 35px;
+  position: relative;
+  margin: 4% 0;
+}
+
+.social .social:first-child {
+  margin-top: 0;
+}
+
+.social .social-overlay {
+  display: inline-block;
+  background: white;
+  width: 35px;
+  border-radius: 5px;
+  height: 100%;
+  position: absolute;
+  right: 0;
+}
+
+.social .social-overlay span {
+  top: 10px;
+  right: 10px;
+  position: absolute;
+  font-weight: bold;
+  color: #1B1B1B;
+}
+
+.social a {
+  position: absolute;
+  top: 10px;
+  left: 8%;
+}
+
+.facebook {
+  background: #3B5998;
+}
+
+.twitter {
+  background: #00ABF1;
+}
+
+.google {
+  background: #D0422A;
+}
+
+.pinterest {
+  background: #CC2127;
+}
+
+input[type="email"] {
+  width: 100%;
+  padding: 16px 0;
+  margin: 10px 0;
+  font-size: 14px;
+  font-size: 1.4rem;
+}
+
+input[type="submit"] {
+  width: 100%;
+  text-align: center;
+}
+
+input[type="email"] {
+  color: white;
+  background: #1b1b1b;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 12px;
+  font-size: 1.2rem;
+  text-align: left;
+  border: 1px solid #c2c2c2;
+  border-radius: 5px;
+}
+
+/****************
+BOTTOM FOOTER
+*******************/
+.bottom-footer {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: flex-start;
+  justify-content: space-between;
+}
+
+.bottom-footer li {
+  list-style: none;
+  text-decoration: none;
+  font-family: "Roboto Condensed", sans-serif;
+  text-transform: uppercase;
+}
+
+.bottom-footer li a {
+  color: white;
+}
+
+.bottom-footer li a:hover {
+  color: #4ae5d1;
+}
+
+.footer-left {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: flex-start;
+  justify-content: space-around;
+  width: 50%;
+}
+
+.footer-right {
+  text-align: right;
+  flex-direction: flex-end;
+}
+
+@media (max-width: 940px) {
+  h1 {
+    font-size: 30px;
+    font-size: 3rem;
+  }
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+  .sea-tours li {
+    width: 48%;
+    margin: 0.5%;
+  }
+  .top-nav-right {
+    flex-direction: column;
+    font-size: 20px;
+    font-size: 2rem;
+  }
+  .top-nav-right a {
+    font-size: 20px;
+    font-size: 2rem;
+  }
+  .travel2.china2 {
+    display: none;
+  }
+  li.travel2 {
+    width: 48%;
+  }
+  .social a > {
+    display: none;
+  }
+  .top-nav-right, .main-heading, .overlay-content {
+    display: none;
+  }
+  .top-nav-left {
+    margin: 0 auto;
+  }
+  .top-nav-right.fa-bars {
+    display: inline-block;
+    font-size: 30px;
+    font-size: 3rem;
+  }
+  .nav-bottom ul {
+    display: inline-block;
+    width: 100%;
+    margin-top: -200%;
+  }
+  .nav-bottom li {
+    border-bottom: 1px solid white;
+    text-align: center;
+    padding: 3.5rem 0;
+  }
+  .nav-bottom li:first-child {
+    background: 0;
+    border: 1px solid white;
+  }
+  .nav-bottom li:first-child:hover {
+    background: rgba(0, 0, 0, 0.2);
+  }
+  .overlay {
+    background: transparent;
+  }
+  .offers > li {
+    width: 48%;
+    padding: 2.5%;
+  }
+}
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+  .wrapper {
+    width: 93%;
+  }
+  .title {
+    padding: 0;
+  }
+  .title h2 {
+    font-size: 2rem;
+    letter-spacing: 0.5rem;
+  }
+  h1 {
+    font-size: 3rem;
+  }
+  /***********
+				NAV
+				************/
+  header {
+    height: 50vh;
+  }
+  .top-nav-right, .main-heading, .overlay-content {
+    display: none;
+  }
+  .top-nav-left {
+    margin: 0 auto;
+  }
+  .top-nav-right.fa-bars {
+    display: inline-block;
+    font-size: 30px;
+    font-size: 3rem;
+  }
+  .nav-bottom li {
+    padding: 1rem 0;
+  }
+  /*********
+				SEA TOUR
+				**********/
+  ul.sea-tours {
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .sea-tours li {
+    width: 100%;
+    margin: 1rem 0;
+    padding: 2rem;
+  }
+  /**************
+				BANNER
+				***************/
+  .banner h2 {
+    letter-spacing: 0.5rem;
+  }
+  .banner {
+    height: 25rem;
+  }
+  /*************
+				OFFERS
+				***************/
+  ul.offers {
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .offers > li {
+    width: 100%;
+    margin: 1rem 0;
+  }
+  .canada {
+    display: none;
+  }
+  /*************
+				POPULAR
+				****************/
+  .italy, .france {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: space-inbetween;
+  }
+  .italy {
+    justify-content: flex-start;
+    flex-direction: row;
+  }
+  .france {
+    justify-content: flex-end;
+    flex-direction: row-reverse;
+    text-align: right;
+  }
+  .italy-gallery, .france-gallery {
+    flex-direction: column;
+    width: 100%;
+    padding: 0;
+  }
+  .italy-gallery li, .france-gallery li {
+    margin: 2.5%;
+    width: 100%;
+    height: 50%;
+  }
+  ul.countries, .italy-gallery li:nth-child(2n), .italy-gallery li:nth-child(3n), .italy-gallery li:last-child, .france-gallery li:nth-child(2n), .france-gallery li:nth-child(3n), .france-gallery li:last-child {
+    display: none;
+  }
+  .italy-text, .france-text {
+    width: 96%;
+    margin: 1%;
+    text-align: center;
+  }
+  .italy-text div.teal-button, .france-text div.teal-button {
+    text-align: center;
+    width: 165px;
+  }
+  .italy-text h4, .france-text h4 {
+    font-weight: 600;
+  }
+  /************
+				FOOTER
+				*************/
+  .footer-left li {
+    font-size: 2rem;
+    text-align: center;
+    display: block;
+  }
+  .top-footer {
+    background: #1b1b1b;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  .top-footer div {
+    width: 100%;
+    border: none;
+  }
+}
